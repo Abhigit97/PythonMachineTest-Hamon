@@ -1,7 +1,8 @@
 import unittest
 import os
+from typing import Optional
 
-def get_contents(fname: str):
+def get_contents(fname: str) -> Optional[str]:
     try:
         with open(fname, 'r') as file:
             return file.read()
