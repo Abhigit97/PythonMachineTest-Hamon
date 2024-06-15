@@ -1,5 +1,5 @@
 import unittest
-from file_count_code import f
+from sequence_count_code import f
 class TestOccurance(unittest.TestCase):
     def test_empty_string(self):
         result = f('')
